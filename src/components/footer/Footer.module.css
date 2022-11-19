@@ -1,0 +1,150 @@
+footer {
+    font-family: 'Inter';
+    margin-top: 124px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.bottom__left {
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+    text-align: left;
+}
+
+.bottom__left_company {
+    width: 30%;
+    color: #656566;
+    font-weight: 700;
+    font-size: 1.5vh;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.bottom__left_nav {
+    display: flex;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #E4E5EA;
+    text-transform: none;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.bottom__left_nav:hover {
+    color: #fcb045;
+}
+
+.bottom__left_category {
+    margin-top: 20px;
+    font-size: 1.8vh;
+}
+
+.bottom__left_special {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bottom__left_menu {
+    width: 45%;
+    font-size: 1.8vh;
+}
+
+.bottom__left_name {
+    width: 60%;
+    color: #656566;
+    font-weight: 700;
+    font-size: 1.5vh;
+    text-transform: uppercase;
+    line-height: 17px;
+}
+
+.bottom__right {
+    text-align: right;
+    color: #656566;
+    font-weight: 700;
+    font-size: 1.5vh;
+    text-transform: uppercase;
+    line-height: 17px;
+    width: 30%;
+}
+
+.bottom__right_special {
+    margin-top: 20px;
+}
+
+.bottom__right_nav {
+    text-transform: none;
+    font-size: 1.8vh;
+    line-height: 17px;
+    font-weight: 400;
+    color: #E4E5EA;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    color: #E4E5EA;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 1.5vh;
+    line-height: 15px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.copyright__special{
+    margin-top: 5px;
+    text-decoration-line: underline;
+}
+
+@media(max-width:700px) {
+    body {
+        width: 90%;
+    }
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .bottom__left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .bottom__left_name {
+        width: 100%;
+        font-size: 1.5vh;
+    }
+    .bottom__left_company {
+        width: 100%;
+        font-size: 1.5vh;
+    }
+    .bottom__left_nav {
+        font-size: 1.5vh;
+    }
+    .bottom__right {
+        width: 100%;
+        text-align: left;
+        font-size: 1.5vh;
+    }
+    .bottom__right_nav {
+        text-align: left;
+        font-size: 1.5vh;
+    }
+    .copyright {
+        font-size: 1.5vh;
+        text-align: left;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+
+}

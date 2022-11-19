@@ -1,0 +1,107 @@
+header {
+    color:#E4E5EA;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.wrapper__logo {
+    display: flex;
+    flex-direction: column;
+    height: 24px;
+    width: 15%;
+}
+
+.wrapper__logo_text {
+    font-weight: 300;
+    margin-top: 10px;
+    font-size: 1.3vh;
+    line-height: 120%;
+    font-family: "Montserrat"
+}
+
+.wrapper__nav {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.wrapper__name {
+    font-family: "Inter";
+    display: flex;
+    text-decoration: none;
+    color:#E4E5EA;
+    font-size: 1.8vh;
+}
+
+.wrapper__name:hover {
+    color: #fcb045;
+}
+
+.wrapper__social {
+    display: flex;
+    width: 25%;
+}
+
+
+img {
+    margin-right: 20px;
+}
+
+img:last-child{
+    margin-right: 0px;
+}
+
+.wrapper__social_number {
+    font-family: "Inter";
+    width: 70%;
+    font-size: 1.8vh;
+}
+
+@media(max-width:1200px) {
+    .wrapper__logo {
+        display: none;
+    }
+    .wrapper__social {
+        display: none;
+    }
+    body {
+        width: 90%;
+    }
+    .wrapper__nav{
+        display: flex;
+        justify-content: space-between; 
+        width: 100%;
+    }
+}
+
+@media(max-width:600px) {
+    .wrapper__name {
+        font-size: 2vh;
+    }
+    body {
+        width: 90%;
+    }
+    .wrapper__name_media {
+        display: none;
+    }
+}
+
+@media(max-width:450px) {
+    .wrapper__name {
+        font-size: 1.8vh;
+    }
+    body {
+        width: 90%;
+    }
+}
+
+@media(max-width:350px) {
+    .wrapper__name {
+        font-size: 1.3vh;
+    }
+    body {
+        width: 90%;
+    }
+}
